@@ -18,26 +18,26 @@ public class Task1 {
     }
 
     public void replaceMaxMinAndMinMax() {
-        int[] massive = Arrays.copyOf(this.massive, this.massive.length);
+        int[] array = Arrays.copyOf(this.massive, this.massive.length);
         int maxMin = -11;
         int idMaxMin = -1;
         int minMax = 11;
         int idMinMax = -1;
-        for (int i = 0; i < massive.length; i++) {
-            if (massive[i] < 0 && massive[i] > maxMin) {
-                maxMin = massive[i];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < 0 && array[i] > maxMin) {
+                maxMin = array[i];
                 idMaxMin = i;
             }
-            if (massive[i] > 0 && massive[i] < minMax) {
-                minMax = massive[i];
+            if (array[i] > 0 && array[i] < minMax) {
+                minMax = array[i];
                 idMinMax = i;
             }
         }
         if (idMaxMin != -1 && idMinMax != -1) {
-            massive[idMaxMin] = minMax;
-            massive[idMinMax] = maxMin;
+            array[idMaxMin] = minMax;
+            array[idMinMax] = maxMin;
         }
-        writeMassive(massive);
+        writeMassive(array);
     }
 
     public void sumEvenElements() {

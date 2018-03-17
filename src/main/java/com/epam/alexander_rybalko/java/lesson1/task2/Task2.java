@@ -59,12 +59,12 @@ public class Task2 {
         int count = Integer.MAX_VALUE;
         String result = "";
         for (String s : args){
-            Set<Character> set = new HashSet<>();
+            Set<Character> charFromString = new HashSet<>();
             for (char c : s.toCharArray()){
-                set.add(c);
+                charFromString.add(c);
             }
-            if (set.size() < count){
-                count = set.size();
+            if (charFromString.size() < count){
+                count = charFromString.size();
                 result = s;
             }
         }
@@ -74,11 +74,11 @@ public class Task2 {
     public void findStringWithEqualDifferentSymbol(){
         String result = "";
         for (String s : args){
-            Set<Character> set = new HashSet<>();
+            Set<Character> charFromString = new HashSet<>();
             for (char c : s.toCharArray()){
-                set.add(c);
+                charFromString.add(c);
             }
-            if (set.size() == s.length() && result.equals("")){
+            if (charFromString.size() == s.length() && result.equals("")){
                 result = s;
             }
         }
