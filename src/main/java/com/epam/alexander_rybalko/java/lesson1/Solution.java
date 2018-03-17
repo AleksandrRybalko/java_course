@@ -26,8 +26,8 @@ public class Solution {
     private void run() throws IOException {
 
         System.out.println("Enter the operation:\n1 - Task1\n2 - Task2\n3 - Task3");
-        String op = in.readLine();
-        switch (op) {
+        String operation = in.readLine();
+        switch (operation) {
             case "1": {
                 Task1 task1 = new Task1();
                 System.out.println("Massive is generated:");
@@ -71,10 +71,10 @@ public class Solution {
                 System.out.println("String with length less than average");
                 task2.findStringWithLengthLessAverage();
 
-                System.out.println("String this less different symbol");
+                System.out.println("String with less different symbol");
                 task2.findStringWithLessDifferentSymbol();
 
-                System.out.println("String this all different symbol");
+                System.out.println("String with all different symbol");
                 task2.findStringWithEqualDifferentSymbol();
 
                 System.out.println("Second string which contains only digits");

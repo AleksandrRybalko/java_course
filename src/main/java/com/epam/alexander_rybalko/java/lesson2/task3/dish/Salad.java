@@ -1,9 +1,9 @@
-package com.epam.alexander_rybalko.java.lesson2.dish;
+package com.epam.alexander_rybalko.java.lesson2.task3.dish;
 
-import com.epam.alexander_rybalko.java.lesson2.comparator.KcalsComparator;
-import com.epam.alexander_rybalko.java.lesson2.comparator.WeightComparator;
-import com.epam.alexander_rybalko.java.lesson2.list.MyArrayList;
-import com.epam.alexander_rybalko.java.lesson2.vegetable.Vegetable;
+import com.epam.alexander_rybalko.java.lesson2.task3.comparator.KcalsComparator;
+import com.epam.alexander_rybalko.java.lesson2.task3.comparator.WeightComparator;
+import com.epam.alexander_rybalko.java.lesson2.task3.list.MyArrayList;
+import com.epam.alexander_rybalko.java.lesson2.task3.vegetable.Vegetable;
 
 public class Salad {
     private String name;

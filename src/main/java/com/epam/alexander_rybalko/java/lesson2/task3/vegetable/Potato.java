@@ -1,4 +1,4 @@
-package com.epam.alexander_rybalko.java.lesson2.vegetable;
+package com.epam.alexander_rybalko.java.lesson2.task3.vegetable;
 
 public class Potato extends TuberVegetable {
     private static final String NAME = "potato";

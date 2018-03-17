@@ -1,7 +1,7 @@
-package com.epam.alexander_rybalko.java.lesson2;
+package com.epam.alexander_rybalko.java.lesson2.task3;
 
-import com.epam.alexander_rybalko.java.lesson2.dish.Salad;
-import com.epam.alexander_rybalko.java.lesson2.vegetable.Vegetable;
+import com.epam.alexander_rybalko.java.lesson2.task3.dish.Salad;
+import com.epam.alexander_rybalko.java.lesson2.task3.vegetable.Vegetable;
 
 import java.lang.reflect.Constructor;
 import java.util.Scanner;
@@ -73,7 +73,7 @@ public class Chef {
                         try {
                             System.out.println("Enter name of vegetable:");
                             String nameOfVegetable = scan.nextLine();
-                            nameOfVegetable = "lesson2.vegetable." + nameOfVegetable;
+                            nameOfVegetable = "com.epam.alexander_rybalko.java.lesson2.task3.vegetable." + nameOfVegetable;
                             try {
                                 Class<?> vegetableClass = Class.forName(nameOfVegetable);
                                 Constructor<?> constructor = vegetableClass.getDeclaredConstructor();

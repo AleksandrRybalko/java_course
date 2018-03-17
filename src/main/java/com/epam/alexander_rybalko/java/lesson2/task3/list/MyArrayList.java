@@ -1,6 +1,6 @@
-package com.epam.alexander_rybalko.java.lesson2.list;
+package com.epam.alexander_rybalko.java.lesson2.task3.list;
 
-import com.epam.alexander_rybalko.java.lesson2.dish.Ingredient;
+import com.epam.alexander_rybalko.java.lesson2.task3.dish.Ingredient;
 
 import java.util.Arrays;
 import java.util.Comparator;

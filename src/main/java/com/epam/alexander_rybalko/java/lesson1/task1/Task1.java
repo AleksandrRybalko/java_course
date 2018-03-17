@@ -85,13 +85,13 @@ public class Task1 {
         int[] massive = Arrays.copyOf(this.massive, this.massive.length);
         List<Integer> list = new ArrayList<>();
         for (int i = 1; i < massive.length; i+=2){
-            int cnt = 0;
+            int count = 0;
             for (int j = 0; j < massive.length; j++){
                 if (massive[j] == massive[i]){
-                    cnt++;
+                    count++;
                 }
             }
-            if (cnt > 1){
+            if (count > 1){
                 list.add(massive[i]);
             }
         }

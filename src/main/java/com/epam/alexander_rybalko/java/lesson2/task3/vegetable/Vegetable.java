@@ -1,4 +1,4 @@
-package com.epam.alexander_rybalko.java.lesson2.vegetable;
+package com.epam.alexander_rybalko.java.lesson2.task3.vegetable;
 
 public abstract class Vegetable {
 

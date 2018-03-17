@@ -1,4 +1,4 @@
-package com.epam.alexander_rybalko.java.lesson2.vegetable;
+package com.epam.alexander_rybalko.java.lesson2.task3.vegetable;
 
 public class Cabbage extends CabbageVegetable {
     private static final String NAME = "cabbage";

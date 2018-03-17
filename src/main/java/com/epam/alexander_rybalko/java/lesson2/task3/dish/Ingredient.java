@@ -1,6 +1,6 @@
-package com.epam.alexander_rybalko.java.lesson2.dish;
+package com.epam.alexander_rybalko.java.lesson2.task3.dish;
 
-import com.epam.alexander_rybalko.java.lesson2.vegetable.Vegetable;
+import com.epam.alexander_rybalko.java.lesson2.task3.vegetable.Vegetable;
 
 public class Ingredient {
 

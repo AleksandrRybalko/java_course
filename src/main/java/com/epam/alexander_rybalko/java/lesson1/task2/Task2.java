@@ -89,16 +89,16 @@ public class Task2 {
         int count = 0;
         String result = "";
         for (String s : args){
-            boolean flag = true;
+            boolean isNumber = true;
             for (char c : s.toCharArray()){
                 if (!Character.isDigit(c)){
-                    flag = false;
+                    isNumber = false;
                     break;
                 }
             }
-            if (flag){
+            if (isNumber){
                 count++;
-                if (count == 2){
+                if (count <= 2){
                     result = s;
                 }
             }
