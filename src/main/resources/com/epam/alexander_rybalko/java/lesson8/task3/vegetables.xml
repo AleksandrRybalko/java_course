@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vegetables>
 	<vegetable>
-		<name>Beet</name>
+		<firstname>Beet</firstname>
 		<type>root</type>
 		<kcals>15</kcals>
 		<proteins>20</proteins>
@@ -13,7 +13,7 @@
 		<way_for_eating>boil</way_for_eating>
 	</vegetable>
 	<vegetable>
-		<name>Cabbage</name>
+		<firstname>Cabbage</firstname>
 		<type>cabbage</type>
 		<kcals>37</kcals>
 		<proteins>22</proteins>
@@ -25,7 +25,7 @@
 		<way_for_eating>fry</way_for_eating>
 	</vegetable>
 	<vegetable>
-		<name>Carrot</name>
+		<firstname>Carrot</firstname>
 		<type>root</type>
 		<kcals>31</kcals>
 		<proteins>19</proteins>
@@ -37,7 +37,7 @@
 		<way_for_eating>boil</way_for_eating>
 	</vegetable>
 	<vegetable>
-		<name>Cucumber</name>
+		<firstname>Cucumber</firstname>
 		<type>melon</type>
 		<kcals>18</kcals>
 		<proteins>31</proteins>
@@ -49,7 +49,7 @@
 		<way_for_eating>fresh</way_for_eating>
 	</vegetable>
 	<vegetable>
-		<name>Potato</name>
+		<firstname>Potato</firstname>
 		<type>tuber</type>
 		<kcals>39</kcals>
 		<proteins>25</proteins>
@@ -61,7 +61,7 @@
 		<way_for_eating>boil</way_for_eating>
 	</vegetable>
 	<vegetable>
-		<name>Squash</name>
+		<firstname>Squash</firstname>
 		<type>melon</type>
 		<kcals>31</kcals>
 		<proteins>12</proteins>
@@ -73,7 +73,7 @@
 		<way_for_eating>fry</way_for_eating>
 	</vegetable>
 	<vegetable>
-		<name>Tomato</name>
+		<firstname>Tomato</firstname>
 		<type>nightshade</type>
 		<kcals>32</kcals>
 		<proteins>31</proteins>
